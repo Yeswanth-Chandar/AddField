@@ -1,5 +1,5 @@
 
-const socket = io('ws://localhost:8080');
+const socket = io('https://addfield.onrender.com');
 
 socket.on('message', text => {
 
