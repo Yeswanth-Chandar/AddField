@@ -1,0 +1,31 @@
+body { 
+    max-width: max-content;
+    margin: auto;
+}
+
+li::marker{
+    color: orangered;
+}
+
+ul {
+    list-style-type: square;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: gray solid 0.5px;
+}
+button{
+    background-color:orangered;
+    color: whitesmoke;
+    height: 30px;
+    width: 50px;
+    border-radius: 2px ;
+    border: orangered ;
+}
+h3{
+    text-align: center;
+    color: darkslategrey;
+}
