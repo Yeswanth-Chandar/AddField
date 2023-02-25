@@ -22,7 +22,7 @@ io.on('connection', (socket) => {
         }
         messages.reverse().forEach((message) => {
             socket.emit('message', message.text);
-        });
+        }); 
     });
 
     // Receive message from the client and store in the database
@@ -39,7 +39,7 @@ io.on('connection', (socket) => {
     });
 });
 
-http.listen(443, () => {
+http.listen(8080, () => {
     console.log('listening on http://localhost:8080');
 });
 
